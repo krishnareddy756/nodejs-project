@@ -1,12 +1,14 @@
 {
-  "name": "helloworld",
+  "name": "server",
   "version": "1.0.0",
-  "main": "hello.js",
+  "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1",
-    "start": "i am krishna reddy"
+    "start": "node index"
   },
   "author": "",
   "license": "ISC",
-  "description": ""
+  "description": "",
+  "dependencies": {
+    "url": "^0.11.4"
+  }
 }
